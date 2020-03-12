@@ -1,0 +1,9 @@
+CREATE TABLE task(
+taskId UUID NOT NULL PRIMARY KEY,
+taskname VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE tasklist(
+taskid UUID NOT NULL,
+task VARCHAR(100) [] NOT NULL
+);
